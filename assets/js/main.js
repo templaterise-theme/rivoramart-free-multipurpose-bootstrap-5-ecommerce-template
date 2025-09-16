@@ -1,3 +1,9 @@
+/* 
+Name                 : RivoraMart – Free Multipurpose Bootstrap 5 eCommerce Template
+Author               : TemplateRise
+Url                  : https://www.templaterise.com/template/rivoramart-free-multipurpose-bootstrap-5-ecommerce-template
+*/
+
 $(function () {
   var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')
