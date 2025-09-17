@@ -529,4 +529,15 @@ $(function () {
   });
   
 
+  $('#filter-section-close').click(function() {
+      var myOffcanvasEl = document.getElementById('filter-section');
+      var offcanvasInstance = bootstrap.Offcanvas.getInstance(myOffcanvasEl);
+
+      if (offcanvasInstance) {
+          offcanvasInstance.hide();
+      } else {
+          new bootstrap.Offcanvas(myOffcanvasEl).hide();
+      }
+  });
+
 });
